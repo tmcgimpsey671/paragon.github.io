@@ -1,1 +1,7 @@
 Paragon_outline.md
+node_modules
+build/
+/npm-debug.log
+.parcel-cache
+metalsmith.io-master/*
+*.zip
