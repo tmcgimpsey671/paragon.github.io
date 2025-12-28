@@ -127,6 +127,28 @@ section:nth-child(even) {
   margin-bottom: var(--spacing-md);
 }
 
+.section-title-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-bottom: var(--spacing-md);
+}
+
+.section-title-container .section-title {
+  margin-bottom: 0;
+}
+
+.section-title-logo {
+  height: 2.5rem;
+  width: auto;
+  transition: opacity var(--transition-speed);
+}
+
+.section-title-logo:hover {
+  opacity: 0.8;
+}
+
 .section-summary {
   text-align: center;
   font-size: 1.25rem;
@@ -796,6 +818,14 @@ section:nth-child(even) {
   .hero-tagline {
     font-size: 1.25rem;
   }
+
+  .section-title-container {
+    gap: 0.75rem;
+  }
+
+  /* .section-title-logo {
+    height: 1.75rem;
+  } */
 
   .team-member {
     flex-direction: column;
